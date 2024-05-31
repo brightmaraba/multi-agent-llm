@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "multi-agent-llm"
+version = "0.1.0"
+description = "MultiAgent LLM Application using OpenAI API, ChatGPT4o and Streamlit"
+authors = ["Brian Koech <code@libranconsult.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+phidata = "^2.4.16"
+openai = "^1.30.5"
+streamlit = "^1.35.0"
+python-dotenv = "^1.0.1"
+arxiv = "^2.1.0"
+pypdf = "^4.2.0"
+duckduckgo-search = "^6.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

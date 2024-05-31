@@ -1,0 +1,22 @@
+/* Styling to hide menu */
+#MainMenu {
+    visibility: hidden;
+}
+
+.css-1544g2n {
+    background-color: #011839;
+    background-image: none;
+    color: #ffffff
+}
+
+footer {
+    visibility: visible;
+}
+
+footer:after {
+    content: "Copyright © 2024 - @LibranTechie | All rights reserved | Powered by Python | ";
+    display: block;
+    position: relative;
+    color: tomato;
+    align-items: center;
+}
